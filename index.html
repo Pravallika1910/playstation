@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sony PlayStation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>Sony PlayStation</h1>
+        <p>Explore the latest gaming experiences with Sony PlayStation.</p>
+    </header>
+
+    <!-- Product Section -->
+    <section class="products">
+        <article class="product">
+            <img src="ps5.jpg" alt="PlayStation 5">
+            <h2>PlayStation 5</h2>
+            <p>The latest gaming console from Sony, featuring cutting-edge technology and stunning graphics.</p>
+            <button onclick="addToCart('ps5')">Add to Cart</button>
+        </article>
+
+        <!-- Add more product articles here -->
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Sony PlayStation. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for interaction -->
+    <script>
+        function addToCart(product) {
+            alert('Added ' + product + ' to the cart!');
+        }
+    </script>
+
+</body>
+
+</html>
